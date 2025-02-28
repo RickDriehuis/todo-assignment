@@ -1,0 +1,36 @@
+.card-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(22, 39, 64, 0.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 500px;
+  border-radius: 12px;
+  background-color: #162740;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: #f1faee;
+}
+
+.card-container .footer button {
+  width: 150px;
+  height: 45px;
+  border: none;
+  margin-bottom: 30px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
